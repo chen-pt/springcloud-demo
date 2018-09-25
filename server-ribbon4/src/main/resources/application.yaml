@@ -1,0 +1,29 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1111/eureka/
+server:
+  port: 3333
+spring:
+  application:
+    name: service-ribbon
+  cloud:
+    loadbalancer:
+      retry.enabled: true
+#开启重试机制
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 10000
+eureka-consumer:
+  ribbon:
+    ConnectTimeout: 250             #断路器的超时时间需要大于Ribbon的超时时间，不然不会触发重试
+    ReadTimeout: 1000               #请求连接的超时时间
+    OkToRetryOnAllOperations: true  #请求处理的超时时间
+    MaxAutoRetriesNextServer: 2     #对所有操作请求都进行重试
+    MaxAutoRetries: 1               #切换实例的重试次数
+
+

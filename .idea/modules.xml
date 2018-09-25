@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eureka-client1/eureka-client1.iml" filepath="$PROJECT_DIR$/eureka-client1/eureka-client1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-client1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-client1_main.iml" group="eureka-client1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-client1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-client1_test.iml" group="eureka-client1" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server_main.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server_main.iml" group="eureka-server" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eureka-server_test.iml" filepath="$PROJECT_DIR$/.idea/modules/eureka-server_test.iml" group="eureka-server" />
+      <module fileurl="file://$PROJECT_DIR$/server-feign/server-feign.iml" filepath="$PROJECT_DIR$/server-feign/server-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server-feign_main.iml" filepath="$PROJECT_DIR$/.idea/modules/server-feign_main.iml" group="server-feign" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server-feign_test.iml" filepath="$PROJECT_DIR$/.idea/modules/server-feign_test.iml" group="server-feign" />
+      <module fileurl="file://$PROJECT_DIR$/server-ribbon4/server-ribbon4.iml" filepath="$PROJECT_DIR$/server-ribbon4/server-ribbon4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server-ribbon4_main.iml" filepath="$PROJECT_DIR$/.idea/modules/server-ribbon4_main.iml" group="server-ribbon4" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/server-ribbon4_test.iml" filepath="$PROJECT_DIR$/.idea/modules/server-ribbon4_test.iml" group="server-ribbon4" />
+      <module fileurl="file://$PROJECT_DIR$/service-zuul/service-zuul.iml" filepath="$PROJECT_DIR$/service-zuul/service-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-zuul_main.iml" filepath="$PROJECT_DIR$/.idea/modules/service-zuul_main.iml" group="service-zuul" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service-zuul_test.iml" filepath="$PROJECT_DIR$/.idea/modules/service-zuul_test.iml" group="service-zuul" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springcloud-demo.iml" filepath="$PROJECT_DIR$/.idea/modules/springcloud-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springcloud-demo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/springcloud-demo_main.iml" group="springcloud-demo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/springcloud-demo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/springcloud-demo_test.iml" group="springcloud-demo" />
+    </modules>
+  </component>
+</project>
